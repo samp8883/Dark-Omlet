@@ -1,0 +1,53 @@
+dark-omelet-arcade/
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── assets/
+│   │   │   ├── avatars/
+│   │   │   └── default-avatar.png
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Register.jsx
+│   │   │   ├── Profile/
+│   │   │   │   ├── AvatarUpload.jsx
+│   │   │   │   └── ProfileSettings.jsx
+│   │   │   ├── Stream/
+│   │   │   │   ├── LiveStream.jsx
+│   │   │   │   ├── StreamKeyGenerator.jsx
+│   │   │   │   └── Recommendations.jsx
+│   │   │   ├── Chat/
+│   │   │   │   └── LiveChat.jsx
+│   │   │   └── UI/
+│   │   │       ├── DarkTheme.jsx
+│   │   │       └── Navbar.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── FullScreenStream.jsx
+│   │   ├── services/
+│   │   │   ├── auth.js
+│   │   │   ├── stream.js
+│   │   │   └── chat.js
+│   │   ├── App.js
+│   │   └── index.js
+├── server/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── streamController.js
+│   │   └── chatController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Stream.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── streamRoutes.js
+│   │   └── chatRoutes.js
+│   ├── utils/
+│   │   ├── generateStreamKey.js
+│   │   └── fileUpload.js
+│   └── server.js
+├── .gitignore
+├── package.json
+└── README.md
